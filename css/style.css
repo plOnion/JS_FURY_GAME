@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#newGame {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 5;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.btn{
+  position: absolute;
+  width: 30%;
+  top: 50%;
+  left: 35%;
+  background: #92CD41;
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  font-family: 'Press Start 2P', cursive;
+  text-decoration: none;
+  color: white;
+  box-shadow: inset 4px 4px 0 0 #4AA52E;
+  cursor: pointer;
+}
+
+.btn:hover {
+   background: #76c442;
+   box-shadow: inset (4px*1.5) (4px*1.5) 0 0 #4AA52E;
+ }
+
+section#score {
+  width: 100%;
+}
+
+#board {
+  width: 640px;
+  height: 640px;
+  margin: 1em auto;
+  background-color: black;
+}
+
+#board  > div {    
+  border: 1px solid white;
+  float: left;
+  width: 64px;
+  height: 64px;
+}
+
+
+section#score div {
+  width: 10em;
+  text-align: center;
+  line-height: 1.4em;
+  font-family: 'Press Start 2P', cursive;
+  padding: 0.8em;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid lightgray;
+  border-radius: 1px;
+  box-shadow: 1px 1px 5px 1px lightgray;
+  margin: 1em auto;
+}
+
+
+
+
+.furry {
+  background-image: url('../images/furry.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.coin {
+  background-image: url('../images/coin.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#over {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#over .gameOver{
+  position: absolute;
+  width: 40%;
+  top: 50%;
+  left: 30%;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  z-index: 1;
+  padding: 8px 0;
+  outline: 5px dotted red;
+}
+
+section#over pre {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bolder;
+  color: brown;
+}
+
+#hiScore{
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+.next{
+  position: absolute;
+  top: 70%;
+}
+
+.invisible {
+  display: none;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "bart-npm",
+  "version": "1.0.0",
+  "description": "<img alt=\"Logo\" src=\"http://coderslab.pl/svg/logo-coderslab.svg\" width=\"400\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "dependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plOnion/POZ_FER_S_12_REACT_Furry_Game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plOnion/POZ_FER_S_12_REACT_Furry_Game/issues"
+  },
+  "homepage": "https://github.com/plOnion/POZ_FER_S_12_REACT_Furry_Game#readme"
+}
